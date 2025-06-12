@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoes</title>
+    <link rel="stylesheet" href="shoes.css">
+</head>
+<body>
+    <h1>Men's Shoe</h1>
+    <div class="shoecontent">
+    <div class="shoestar">
+    <div class="image">       
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQekX0ltQ9ZXDfDoh5UGgBX7QeTthDSPhQVMuICMDXBOv7OtZhVMA&s=10&ec=72940545" alt="">
+    </div>
+    <div class="star">
+    <img src="https://static.vecteezy.com/system/resources/thumbnails/011/732/718/small_2x/funny-cute-happy-4-star-characters-bundle-set-hand-drawn-doodle-style-cartoon-character-illustration-icon-design-isolated-on-white-background-cute-five-four-mascot-character-collection-vector.jpg" alt="">
+    <div class="discount">
+    <p>Price : </p>
+    <p class="drop">1,699</p>
+    
+    </div>
+    <div class="actualPrice">
+    <p class="minus">-24%</p>
+    <p class="actual" >₹1,299</p>
+    </div>
+    </div>
+    </div>
+    <div class="about">
+        <h4>Product details</h4>
+        <table >
+            <tr>
+                <th>Material type</th>
+                <td>Ethylene Vinyl Acetate, Thermoplastic Polyurethane</td>
+            </tr>
+            <tr>
+                <th>Closure type</th>
+                <td>Lace-Up</td>
+            </tr>
+            <tr>
+                <th>Heel type</th>
+                <td>No Heel</td>
+            </tr>
+            <tr>
+                <th>Water resistance level</th>
+                <td>Not Water Resistant</td>
+            </tr>
+            <tr>
+                <th>Country of Origin</th>
+                <td>India</td>
+            </tr>
+        </table>
+
+        <button class="button" id="cart" onclick="cart()">Add to Cart</button>
+        <button class="button" id="buy" onclick="like()">Wishlist</button>
+        
+        <form class="form">
+            <label for="quantity">Quantity:</label>
+            <select name="select" id="select" >
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+        </form>
+    </div>
+    </div>
+    <h2>Similar Items</h2>
+    <div class="similar">
+        <a href="shoes.html">
+            <a href="shoes.html">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMZVA89pooH4pe2W2OPrKNQYu9hSBTovSTNehyc7pWGmnOfDxkOA&s=10&ec=72940545" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEFSTDBOlMSFlw1Xt9K42nfsZbdbcTKrxnGxMwIWZQ2FJwquH4dw&s=10&ec=72940545" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMupcnMZ4eeP3uJcT2DUI0u-L_vS4Jy6OcMHTADPLsXck3G8JHVQ&s=10&ec=72940545" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF5mN92Zyk2MDJ8jiNc_VUbeoNTHZHJ5L_SRL6sotE_n5KCvc9Lw&s=10&ec=72940545" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWFAQXvUq7IKdQ1tT2Yw-5iMYqNRfp0fRhL3NMSnYZQQybrxIA_Q&s=10&ec=72940545" alt="">
+        </a>
+    </div>
+    <script>
+    
+    function cart(){
+    var heart=document.getElementById("buy");
+    var mes="Added to cart";
+    alert(mes);
+    }
+    function like(){
+    var heart=document.getElementById("buy");
+    var mes="Wishlisted!!";
+    alert(mes);
+    }
+</script>
+</body>
+</html>

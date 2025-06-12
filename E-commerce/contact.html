@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="shoes.css">
+</head>
+<body>
+    <div class="all">
+    <div class="header">
+    <div class="logo">
+        <img src="https://cdn.dribbble.com/userupload/17039932/file/original-983633d1f6de58f5d871f174ff34f057.jpg?resize=400x0" alt="LOGO">
+    </div>
+    <div class="container">
+        <a href="shoes.html">
+        <p>MEN</p>
+        </a>
+        <a href="kurtas.html">
+        <p>WOMEN</p>
+        </a>
+        <a href="Kids.html">
+        <p>KIDS</p>
+        </a>
+        <a href="Ecommerce.html">
+        <p>HOME</p>
+        </a>
+        <a href="Makeup.html">
+        <p>BEAUTY</p>
+        </a>
+    </div>
+    <div class="search">
+        <form>
+            <input type="text" placeholder="search">
+        </form>
+    </div>
+    <div class="profile">
+        <img src="https://t4.ftcdn.net/jpg/02/89/59/55/360_F_289595573_wCKO1nxxx7HGk69z5szjvSOqPnZVTfTG.jpg" alt="">
+        <div class="profile-table" style="background-color: rgb(241, 241, 241);">
+            <th>Hello User!!</th>
+            <hr>
+            <td>91******59</td>
+            <hr>
+            <td>Orders</td>
+            <hr>
+            <td>Gift Cards</td>
+            <hr>
+            <td>Contact Us</td>
+            <hr>
+            <td >Logout</td>       
+        </div>
+    </div>
+    <a href="wishlist.html">
+    <div class="wishlist" id="wishlist">
+        <img src="https://cdn-icons-png.flaticon.com/512/8830/8830807.png" alt="">
+    </div>
+    </a>
+    <a href="bag.html">
+    <div class="bag">
+        <img src="https://icons.iconarchive.com/icons/icons8/ios7/256/Ecommerce-Shopping-Bag-icon.png" alt="">
+    </div>
+    </a>
+    </div>
+    </div>
+
+    <div class="help">
+        <div class="wrap">
+        <h2>HELP CENTER</h2>
+        <p class="tagline">We are here to help you</p>
+        </div>
+        <hr>
+        <div class="dia">
+        <div class="query">
+        <p><b>SELECT QUERY TYPE</b></p>
+        <p style="text-decoration: underline;" id="Non-Order" onclick="non()">Non-Order related Queries</p>
+        <p style="text-decoration: underline;" id="faq" onclick="faq()">FAQs</p>
+    </div>
+    <div class="response"  id="response" style="margin-top: 20px; font-weight: bold;">
+</div>
+    </div>
+    <a href="Ecommerce.html">
+    <button class="button" style="margin-top: 100px; margin-left: 50px; position: sticky;" >HOME</button>
+    </a>
+    </div>
+
+<script>
+    function non(){
+        document.getElementById("response").innerHTML = "Why am I not getting an OTP?<br>"+
+        "I am not getting the Forgot Password link.<br>"    +
+        "Why is my account locked?<br>"+
+        "How do I login to my account?<br>";
+
+    }
+    function faq() {
+    document.getElementById("response").innerHTML = "How do I cancel the order, I have placed?<br>"+
+    "How do I create a Return Request?<br>"+
+    "Where should I self-ship the Returns?<br>"+
+    "I have created a Return request. When will I get the refund?";   
+  }
+</script>
+
+
+</body>
+</html>

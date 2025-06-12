@@ -1,0 +1,72 @@
+body{
+    background-color: white
+}
+img{
+    height: 360px;
+    width: 220px;
+}
+.star img{
+    height: 50px;
+    width: 90px;
+}
+.shoecontent{
+    margin-left: 150px;
+    display: flex;
+    gap: 30px;
+}
+h4{
+    font-family: cursive;
+}
+.about th,
+.about td {
+  padding: 16px ;
+  text-align: left;
+}
+.drop {
+    text-decoration: line-through;
+}
+p{
+    font-family: cursive;
+}
+.discount{
+    display: flex;
+}
+.minus{
+    font-family:sans-serif;
+    color: red;
+    margin: 0;
+}
+.actualPrice{
+    display: flex;
+}
+.actualPrice actual{
+    font-family: sans-serif;
+    color: black;
+    font-size:100px;
+}
+.button{
+    padding: 15px;
+    width: 200px;
+    background-color: rgb(228, 90, 113);
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color:rgb(211, 62, 87);
+}
+.form{
+    padding: 45px;
+}
+.form select{
+    padding: 5px;
+    border-radius: 2px;
+    
+}
+.similar img{
+    padding: 10px;
+    gap: 23px;
+    margin-left: 20px;    
+}

@@ -1,0 +1,304 @@
+body{
+    background-color: rgb(255, 255, 255);
+ }
+ .logo{
+    text-align: left;
+    padding: 0px;
+ }
+ .logo img{
+    height: 100px;
+    width:100px;
+    display: block;
+ }
+ .container{
+    display: flex;
+    gap: 20px;
+
+ }
+ .container p{
+    margin: 0px;
+    padding: 0%;
+    background-color: transparent;
+    padding: 5px;
+    border-radius: 6px;
+    cursor: pointer;
+
+
+ }
+ .container p:hover {
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    outline: none;
+    background-color: transparent;
+    border: none;
+
+ }
+ .header{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* position: absolute; */
+    background-color: white;
+    max-height: 98px;
+ }
+ .search form {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 25px;
+    padding: 5px 10px;
+    max-width: 350px;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-left: 260px;
+}
+.search input{
+    border: none;
+    background: transparent;
+    padding: 10px;
+    outline: none;
+    font-size: 16px;
+    font-family:cursive
+}
+.profile img{
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+.profile{
+    margin-left: 80px;
+}
+.wishlist img{
+    width: 23px;
+    height: 23px;
+    margin-left: 0%;
+    cursor: pointer;
+}
+.wishlist{
+    margin-left: 0px;
+}
+.bag img{
+    width: 23px;
+    height: 23px;
+    margin-left: 0%;
+    cursor: pointer;
+}
+.image {
+    width: 1200px;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 60px;
+    animation-name: images;
+    background-position: center;
+    background-size: cover;
+    animation-iteration-count: infinite;
+    animation-duration: 9s;
+}
+@keyframes images {
+    0%{
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQMdIZOPKm41RaUDfUEgewY0Mg2sQ3BNQ9s15TUEkI9KdE90QVTA&s=10&ec=72940545");
+    }
+    25%{
+        background-image: url("https://thumbs.dreamstime.com/b/fashion-portrait-woman-black-white-dots-hat-pout-lips-horizontal-56779651.jpg");
+    }
+    50%{
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-G4oBv-VNvimMUPfhnLh_v8Zy9Wczog1Y-s6za-OxWlTs5BhovA&s=10&ec=72940545");
+    }
+    75%{
+        background-image: url("https://lifesight.io/wp-content/uploads/62e3888add6d204e844bff40-64367c2139b2cc1378c8ee92-Ecommerce-20-Product-20-Photography-20-Cover-20-Image-412d1ee313-1.webp");
+    }
+    100%{
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKhGqN_vAQlyKjSUE5bXcQDFNMyrkeTOHD0kxZw3RCqpSB7gOrig&s=10&ec=72940545");
+    }
+}
+h2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+.products img{
+    height: 200px;
+    width: 175px;
+    margin-left: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    cursor: pointer;
+}
+.catalog{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.names{
+    display: flex;
+    gap: 80px;
+
+}
+.names p{
+    font-family: cursive;
+    font-weight: bold;
+    margin-left: 40px;
+    padding: 5px;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.mobiles img{
+    height: 200px;
+    width: 175px;
+    margin-left: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    cursor: pointer;
+}
+.ElectronicNames{
+    display: flex;
+    gap: 20px;
+}
+.ElectronicNames p{
+    font-family: cursive;
+    font-weight: bold;
+    margin-left: 40px;
+    padding: 5px;
+}
+.profile-table {
+    display: none;
+    position: absolute;
+    background-color: white;
+    padding: 5px;
+    width: 140px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    cursor: pointer;
+}
+.profile:hover .profile-table {
+    display: block;
+}
+.payment{
+    margin-left: 400px;
+    padding: 20px;
+    margin-top: 25px;
+}
+.secure img{
+    height: 120px;
+    width: 180px;
+    margin-left: 220px;
+}
+.contain{
+    display: flex;
+}
+.select img{
+    height: 250px;
+    width: 150px;
+    padding: 30px;
+}
+.select{
+    display: grid;
+}
+.check {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+ .item {
+      display: flex;
+      align-items: center;
+      gap: 10px; 
+}
+
+.item img {
+      width: 90px; 
+      height: auto;
+}
+.side {
+      padding: 20px;
+      
+}
+.btn{
+    padding: 15px;
+    width: 200px;
+    background-color: rgb(228, 90, 113);
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    cursor: pointer;
+    margin-left: 550px;
+}
+.btn:hover{
+    background-color:rgb(211, 62, 87);
+}    
+.container {
+      height: 100px;
+      border: none;
+      display: flex;
+      align-items: center;
+      left: 0px;
+      bottom: 0px; 
+
+    }
+
+    .label img {
+      width: 450px;
+      height: 100px;
+      margin-left: 0px;
+      margin-top: 70px;
+    }
+    .label{
+        display: flex;
+    }
+    .Contact{
+        color: rgb(61, 56, 56);
+        margin-top: 100px;
+        margin-left: 100px;
+        text-decoration: underline;
+    }
+    .wrap{
+        margin: 0%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .help .wrap h2{
+        margin-bottom: 0px;
+    }
+    .help .wrap .tagline {
+  margin-top: 0;
+  font-size: 1rem;
+  color: #666;
+  margin-left: 0px;
+}
+p{
+    font-size: small;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+}
+.dia{
+    display: flex;
+}
+.response{
+    padding: 50px;
+    margin-left: 150px;
+}
+.bn{
+    padding: 5px;
+    width: 60px;
+    height: 30px;
+    background-color: rgb(228, 90, 113);
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    cursor: pointer;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.products{
+    display: flex;
+}
+.products p{
+    padding: 15px;
+}
+.mobiles{
+    display: flex;
+}

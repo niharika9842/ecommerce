@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AirPods</title>
+    <link rel="stylesheet" href="shoes.css">
+</head>
+<body>
+    <h1>AirPods</h1>
+    <div class="shoecontent">
+    <div class="shoestar">
+    <div class="image">       
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZAm2NC3VdA1WgWgNtCQ-5mTrhtVmpAUc1QTLEAuDQx_M4qvtu2g&s&ec=72940545" alt="">
+    </div>
+    <div class="star">
+    <img src="https://static.vecteezy.com/system/resources/thumbnails/011/732/718/small_2x/funny-cute-happy-4-star-characters-bundle-set-hand-drawn-doodle-style-cartoon-character-illustration-icon-design-isolated-on-white-background-cute-five-four-mascot-character-collection-vector.jpg" alt="">
+    <div class="discount">
+    <p>Price : </p>
+    <p class="drop">899</p>
+    
+    </div>
+    <div class="actualPrice">
+    <p class="minus">-56%</p>
+    <p class="actual" >₹398</p>
+    </div>
+    </div>
+    </div>
+    <div class="about">
+        <h4>Product details</h4>
+        <table >
+            <tr>
+                <th>Colour</th>
+                <td>Black</td>
+            </tr>
+            <tr>
+                <th>Brand</th>
+                <td>Mizi</td>
+            </tr>
+            <tr>
+                <th>Material</th>
+                <td>Fabric</td>
+            </tr>
+            <tr>
+                <th>Item dimensions</th>
+                <td>19.9 x 4.7 x 0.5 Centimeters</td>
+            </tr>
+            <tr>
+                <th>Compatible Devices</th>
+                <td>ATH MSR7NC, MSR7GM, MSR7BK, MSR7, M50xBT, M50x, WS99BT, ATH-WS33X, ATH-S100</td>
+            </tr>
+        </table>
+
+        <button class="button" id="cart" onclick="cart()">Add to Cart</button>
+        <button class="button" id="buy" onclick="like()">Wishlist</button>
+        <form class="form">
+            <label for="quantity">Quantity:</label>
+            <select name="select" id="select" >
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+        </form>
+    </div>
+    </div>
+    <h2>Similar Items</h2>
+    <div class="similar">
+        <a href="headset.html">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTykh5X1qjbQ0pxdrUw2ERS_qyik70TmKGBBl0xxuSBJZkg3NTHfA&s=10&ec=72940545" alt="">
+        <img src="https://m.media-amazon.com/images/I/51ZR4lyxBHL._AC_UF1000,1000_QL80_.jpg" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGhiBor-Y7pea7NuWlO_xpwD421mKzwNnvFy2j8Jt5_QA0VaRDAA&s=10&ec=72940545" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ9L8XxNS137okKJVcuQnuYzlCz004TuuhvKer2uVODhtOVCfXBA&s=10&ec=72940545" alt="">
+        <img src="https://m.media-amazon.com/images/I/61nl3-1mF4L._AC_UF1000,1000_QL80_.jpg" alt="">
+        </a>
+    </div>
+    <script>
+    function cart(){
+    var wish=document.getElementById("wishlist");
+    var message="Added to cart";
+    alert(message);
+    }
+    function like(){
+    var heart=document.getElementById("buy");
+    var mes="Wishlisted!!";
+    alert(mes);
+    }
+</script>
+</body>
+</html>

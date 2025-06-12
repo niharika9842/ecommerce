@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makeup</title>
+    <link rel="stylesheet" href="shoes.css">
+</head>
+<body>
+    <h1>Beauty</h1>
+    <div class="shoecontent">
+    <div class="shoestar">
+    <div class="image">       
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm6oU6UkySBWdNLG2bi9UD9RaTkxbQkmT2acVup2QBzZ6J1ONYgQ&s=10&ec=72940545" alt="">
+    </div>
+    <div class="star">
+    <img src="https://static.vecteezy.com/system/resources/thumbnails/011/732/718/small_2x/funny-cute-happy-4-star-characters-bundle-set-hand-drawn-doodle-style-cartoon-character-illustration-icon-design-isolated-on-white-background-cute-five-four-mascot-character-collection-vector.jpg" alt="">
+    <div class="discount">
+    <p>Price : </p>
+    <p class="drop">1249</p>
+    
+    </div>
+    <div class="actualPrice">
+    <p class="minus">-35%</p>
+    <p class="actual" >₹161</p>
+    </div>
+    </div>
+    </div>
+    <div class="about">
+        <h4>Product details</h4>
+        <table >
+            <tr>
+                <th>Brand</th>
+                <td>Maybelline</td>
+            </tr>
+            <tr>
+                <th>Item Form</th>
+                <td>Pressed</td>
+            </tr>
+            <tr>
+                <th>Colour</th>
+                <td>128, Warm Nude</td>
+            </tr>
+            <tr>
+                <th>Finish Type</th>
+                <td>Matte</td>
+            </tr>
+            <tr>
+                <th>Skin Type</th>
+                <td>All, Oily</td>
+            </tr>
+        </table>
+
+        <button class="button" id="cart" onclick="cart()">Add to Cart</button>
+        <button class="button" id="buy" onclick="like()">Wishlist</button>
+        
+        <form class="form">
+            <label for="quantity">Quantity:</label>
+            <select name="select" id="select" >
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+        </form>
+    </div>
+    </div>
+    <h2>Similar Items</h2>
+    <div class="similar">
+        <a href="Makeup.html">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQc5Zk74bzATW7W2q0EhrsfSBRS13OfHSKj7UrlyqTVY1cJggIYw&s=10&ec=72940545" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUCzU27b30_1OQLP_8oIqWkO_coWGrz-p-nhARteZ57qoqMWehHw&s&ec=72940545" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGe4zm_cEPh_ZhQhNROtYGGzH0iP9JndXquNqmAtAfzWctbjV7og&s=10&ec=72940545" alt="">
+        <img src="https://media.weddingz.in/images/e49fb4a2c6e77440036030c08c73351b/13-top-makeup-brands-for-brides-used-by-professional-makeup-artists-psst-our-favourite-picks-included.jpg" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjoU38e1DvBQXnTm_vv5nz1yRFizyNWO2tPe7YFMQAtnBECetyCA&s=10&ec=72940545" alt="">
+        </a>
+    </div>
+    <script>
+    function cart(){
+    var wish=document.getElementById("wishlist");
+    var message="Added to cart";
+    alert(message);
+    }
+    function like(){
+    var heart=document.getElementById("buy");
+    var mes="Wishlisted!!";
+    alert(mes);
+    }
+</script>
+</body>
+</html>

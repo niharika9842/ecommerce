@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurtas</title>
+    <link rel="stylesheet" href="shoes.css">
+</head>
+<body>
+    <h1>Kurta set</h1>
+    <div class="shoecontent">
+    <div class="shoestar">
+    <div class="image">       
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT47ekHLcP5ISgO6NnZ-eLCHGa7T-5O5DmsQkaL4r9SxOoO8g3Leg&s=10&ec=72940545" alt="">
+    </div>
+    <div class="star">
+    <img src="https://png.pngtree.com/png-vector/20220610/ourmid/pngtree-five-star-rating-icon-png-image_4974126.png" alt="">
+    <div class="discount">
+    <p>Price : </p>
+    <p class="drop">1,499</p>
+    
+    </div>
+    <div class="actualPrice">
+    <p class="minus">-67%</p>
+    <p class="actual" >₹499</p>
+    </div>
+    </div>
+    </div>
+    <div class="about">
+        <h4>Product details</h4>
+        <table >
+            <tr>
+                <th>Material type</th>
+                <td>Chanderi</td>
+            </tr>
+            <tr>
+                <th>Sleeve type</th>
+                <td>Puff Sleeve</td>
+            </tr>
+            <tr>
+                <th>Style</th>
+                <td>Regular</td>
+            </tr>
+            <tr>
+                <th>Length</th>
+                <td>Calf Length</td>
+            </tr>
+            <tr>
+                <th>Country of Origin</th>
+                <td>India</td>
+            </tr>
+        </table>
+
+        <button class="button" id="cart" onclick="cart()">Add to Cart</button>
+        <button class="button" id="buy" onclick="like()">Wishlist</button>
+        
+        <form class="form">
+            <label for="quantity">Quantity:</label>
+            <select name="select" id="select" >
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+        </form>
+    </div>
+    </div>
+    <h2>Similar Items</h2>
+    <div class="similar">
+        <a href="kurtas.html">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWzHYFWagKJAQ4QNYKQr_iTK-w40r7fekT7VyiPZEULEbeD8kNMA&s=10&ec=72940545" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu8Ufm8_0ai4Ik-4w_5RwVwqsPXykKGNaNa_9Vyql87t5na4ymsQ&s=10&ec=72940545" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuUQW5TE_uCXUNuaIpmOG2EeULdgeQukGroAqljR5KEik6tRvNbQ&s=10&ec=72940545" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ89z9Mg9q085DVEpLufuDhcrvRlmjqOVVpjxoeH5HdDe9NNHKvTA&s=10&ec=72940545" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnzNnvOb4ZxV--4Q_mJUc6k-sX9di1yhYOaVzr6vckZASWFVfqWw&s=10&ec=72940545" alt="">
+        </a>
+    </div>
+    <script>
+    function cart(){
+    var wish=document.getElementById("wishlist");
+    var message="Added to cart";
+    alert(message);
+    }
+    function like(){
+    var heart=document.getElementById("buy");
+    var mes="Wishlisted!!";
+    alert(mes);
+    }
+</script>
+</body>
+</html>

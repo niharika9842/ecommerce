@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="shoes.css">
+</head>
+<body>
+    <h2>Choose Payment Method</h2>
+    <form action="">
+        <p><input type="radio" class="radio" name="radio" value="Cash On Delivery">Cash On Delivery</p>
+        <p><input type="radio" class="radio" name="radio" value="UPI">UPI</p>
+        <p><input type="radio" class="radio" name="radio" value="Wallet">Wallet</p>
+        <p><input type="radio" class="radio" name="radio" value="EMI">EMI</p>
+        <p><input type="radio" class="radio" name="radio" value="Net Banking">Net Banking</p>
+        <p><input type="radio" class="radio" name="radio" value="Credit/Debit Card">Credit/Debit Card</p>
+    </form>
+    <footer>
+    <div class="label">
+        <img src="https://www.shutterstock.com/image-vector/kerala-india-may-08-2023-260nw-2304421791.jpg" alt="">
+        <a href="contact.html">
+        <p class="Contact">Contact us</p>
+        </a>
+        <a href="Ecommerce.html">
+        <button class="bn" id="bn" onclick="bn()">PAY</button>
+        </a>
+    </div>
+    </footer>
+
+    <script>
+        function bn(){
+        // document.getElementById("bn")
+        var message="Processing..."
+        
+        alert(message);
+    }
+    </script>
+</body>
+</html>

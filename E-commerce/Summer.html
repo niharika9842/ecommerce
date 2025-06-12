@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summer</title>
+    <link rel="stylesheet" href="shoes.css">
+</head>
+<body>
+    <h1>Summer Style</h1>
+    <div class="shoecontent">
+    <div class="shoestar">
+    <div class="image">       
+        <img src="https://greatsouthernsunnies.com.au/cdn/shop/files/Rectangle_Womens_Mobile.png?v=1710240438" alt="">
+    </div>
+    <div class="star">
+    <img src="https://png.pngtree.com/png-vector/20220610/ourmid/pngtree-five-star-rating-icon-png-image_4974126.png" alt="">
+    <div class="discount">
+    <p>Price : </p>
+    <p class="drop">1,299</p>
+    
+    </div>
+    <div class="actualPrice">
+    <p class="minus">-64%</p>
+    <p class="actual" >₹465</p>
+    </div>
+    </div>
+    </div>
+    <div class="about">
+        <h4>Product details</h4>
+        <table >
+            <tr>
+                <th>Item Dimensions LxWxH</th>
+                <td>14 x 14.5 x 5 Centimeters</td>
+            </tr>
+            <tr>
+                <th>Item Weight</th>
+                <td>30 g</td>
+            </tr>
+            <tr>
+                <th>Style</th>
+                <td>Regular</td>
+            </tr>
+            <tr>
+                <th>Packer</th>
+                <td>Elegante India</td>
+            </tr>
+            <tr>
+                <th>Country of Origin</th>
+                <td>India</td>
+            </tr>
+        </table>
+
+        <button class="button" id="cart" onclick="cart()">Add to Cart</button>
+        <button class="button" id="buy" onclick="cart()">Wishlist</button>
+        
+        <form class="form">
+            <label for="quantity">Quantity:</label>
+            <select name="select" id="select" >
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+        </form>
+    </div>
+    </div>
+    <h2>Similar Items</h2>
+    <div class="similar">
+        <a href="Summer.html">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAmzF28HNOWdJu71fqtcjfuH8_mNDLyaCnwCCfk19JSrUpH-DmBg&s=10&ec=72940545" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYqkqR3H8MXTWurgiMvxMYhgZvQOYoepQYoQLXF_qik7Qy7u5w_g&s=10&ec=72940545" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2kSWpNXSUPs_myO6X53kfvLO4V9jlD_IqrpiE_D2Y1SGAc0-R-w&s=10&ec=72940545" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3Q-Gjc_452PWgDd4jJc16rlGwdAqmjdyXTquR8I1cNkQ7CAQkog&s=10&ec=72940545" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStH6EcF2hXrrEtknBBKtJbNbnM5pzNU3Nxjj60tYrYksw5stJztQ&s=10&ec=72940545" alt="">
+        </a>
+    </div>
+    <script>
+    function cart(){
+    var wish=document.getElementById("wishlist");
+    var message="Added to cart";
+    alert(message);
+    }
+    function like(){
+    var heart=document.getElementById("buy");
+    var mes="Wishlisted!!";
+    alert(mes);
+    }
+</script>
+</body>
+</html>

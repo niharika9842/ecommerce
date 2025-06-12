@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laptop</title>
+    <link rel="stylesheet" href="shoes.css">
+</head>
+<body>
+    <h1>Laptop</h1>
+    <div class="shoecontent">
+    <div class="shoestar">
+    <div class="image">       
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSp7wCiOBU_U_XmD_USGIfI5xm3zbxoKJI9ccOI2dNCpLFZskPPw&s=10&ec=72940545" alt="">
+    </div>
+    <div class="star">
+    <img src="https://static.vecteezy.com/system/resources/thumbnails/011/732/718/small_2x/funny-cute-happy-4-star-characters-bundle-set-hand-drawn-doodle-style-cartoon-character-illustration-icon-design-isolated-on-white-background-cute-five-four-mascot-character-collection-vector.jpg" alt="">
+    <div class="discount">
+    <p>Price : </p>
+    <p class="drop">45995</p>
+    
+    </div>
+    <div class="actualPrice">
+    <p class="minus">-35%</p>
+    <p class="actual" >₹29990</p>
+    </div>
+    </div>
+    </div>
+    <div class="about">
+        <h4>Product details</h4>
+        <table >
+            <tr>
+                <th>Brand</th>
+                <td>HP</td>
+            </tr>
+            <tr>
+                <th>Colour</th>
+                <td>Black</td>
+            </tr>
+            <tr>
+                <th>CPU Model</th>
+                <td>Ryzen 3</td>
+            </tr>
+            <tr>
+                <th>Memory Storage</th>
+                <td>512 GB</td>
+            </tr>
+            <tr>
+                <th>Screen Size</th>
+                <td>39.6 Centimetres</td>
+            </tr>
+        </table>
+
+        <button class="button" id="cart" onclick="cart()">Add to Cart</button>
+        <button class="button" id="buy" onclick="like()">Wishlist</button>
+        
+        <form class="form">
+            <label for="quantity">Quantity:</label>
+            <select name="select" id="select" >
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+        </form>
+    </div>
+    </div>
+    <h2>Similar Items</h2>
+    <div class="similar">
+        <a href="laptop.html">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTwovDbp8Gj8jiClbTsj7AzVBx-12TPqpmXyNnuHnrX0YQUKBpHQ&s=10&ec=72940545" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRj7t69fCOq8Doqw23auKyJ6PjZznAipnhZPl6aD-nzdlCrJhkUA&s=10&ec=72940545" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUNmhfbrPBQwqtNYJOv6IPQaQ551KPQbJLfOR2sEtLUjJXrxhozA&s=10&ec=72940545" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGFWEE5XPLcfMcsDUCA4SzgdslLM9HBr_nFHXcYxMtl4JQtpxxKQ&s=10&ec=72940545" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD-QqiKfSEPG2sBYzSzmkBXBkKdfzgZF7fjqlbAbrGqZwusT7_Lg&s=10&ec=72940545" alt="">
+        </a>
+    </div>
+    <script>
+    function cart(){
+    var wish=document.getElementById("wishlist");
+    var message="Added to cart";
+    alert(message);
+    }
+    function like(){
+    var heart=document.getElementById("buy");
+    var mes="Wishlisted!!";
+    alert(mes);
+    }
+</script>
+</body>
+</html>
